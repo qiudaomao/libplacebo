@@ -1,0 +1,19 @@
+[binaries]
+c = '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang'
+ar = '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar'
+strip = '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip'
+cpp = '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++'
+cmake='/usr/local/bin/cmake'
+pkgconfig = '/usr/local/bin/pkg-config'
+
+[properties]
+c_args = ['-I/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/Package/Release/MoltenVK/include', '-I/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/External/glslang', '-arch', 'x86_64', '-miphoneos-version-min=12.0', '-fembed-bitcode', '-isysroot', '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk']
+cpp_args = ['-I/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/Package/Release/MoltenVK/include', '-I/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/External/glslang', '-arch', 'x86_64', '-miphoneos-version-min=12.0', '-fembed-bitcode', '-isysroot', '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk']
+c_link_args = ['-L/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/External/build/Release/iOS', '-L/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/Package/Release/MoltenVK/iOS/static', '-arch', 'x86_64', '-miphoneos-version-min=12.0', '-fembed-bitcode', '-isysroot', '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk']
+cpp_link_args = ['-L/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/External/build/Release/iOS', '-L/Users/zfu/proj/github/tvos.mpv.player/contrib/MoltenVK/Package/Release/MoltenVK/iOS/static', '-arch', 'x86_64', '-miphoneos-version-min=12.0', '-fembed-bitcode', '-isysroot', '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk']
+
+[host_machine]
+system = 'darwin'
+cpu_family = 'intel'
+cpu = 'x86_64'
+endian = 'little'
